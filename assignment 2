@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SUTT A2</title>
+	<style type="text/css">
+	body {
+		background-image: url("background.jpg");
+		background-repeat: repeat-y;
+		background-position: top;
+		background-size: 100%;
+	}
+	.bg {
+		background-color: rgba(255,255,255,.7);
+		font-family: sans-serif;
+		margin: 20px 20px 20px 20px;
+		display: flex;
+		flex-direction: column;
+		float: center;
+		font-size: 18px;
+	}
+	.all:hover {
+		background-color: white;
+	}
+	#s0, #s1, #s2, #s3, #s4, #s5, #s6, #s7, #s8, #s9, #s10 {
+		text-align: center;
+		display: inline-block;
+		flex: 1;
+		padding-top: 4%;
+		padding-bottom: 4%;
+		padding-left: 8%;
+		padding-right: 8%;
+		height: 20%;
+	}
+	#s4, #s8 {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	#s5, #s9 {
+		padding-left: 15%;
+	}
+	</style>
+</head>
+<body>
+	<div class="bg">
+		<div>
+			<span class=all id="s0">SU Tech Team Inductions</span>
+			<span class=all id="s1">Assignment 2</span>
+			<span class=all id="s2">HTML</span>
+			<span class=all id="s3">CSS</span>
+		</div>
+		<div>
+			<span style="background-color: rgba(135,206,250,.7);" class=all id="s4">Positioning practice</span>
+			<span class=all id="s5">Submit assignment by <b style="color: purple;">Wednesday</b></span>
+		</div>
+		<div class=all id="s6">Try using as less paddings and margins as possible</div>
+		<div style="background-color: rgba(50,205,50,.7);" class=all id="s7">Everybody send friend request to Sharath Golluri</div>
+		<div>
+			<span class=all id="s8">East or West SUTT is the best</span>
+			<span class=all id="s9">Suraj is you alive?</span>
+			<!--<span class=all id="s10">New item</span>-->
+		</div>
+	</div>
+</body>
+</html>
