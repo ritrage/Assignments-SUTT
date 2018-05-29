@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SUTT A1</title>
+	<style type="text/css">
+	div {
+		background-color: #4267B2;
+		padding-left: 3%;
+		padding-top: 8px;
+		padding-bottom: 8px;
+		margin-top: -8px;
+		margin-left: -9px;
+		margin-right: -100px;
+	}
+	img {
+		height: 20px;
+	}
+	#search {
+		padding-left: 5px;
+		padding-top: 10px;
+		padding-bottom: 0px;
+		width: 290px;
+		height: 8px;
+	}
+	button {
+		height: 21px;
+		margin-left: -8px;
+	}
+	button img {
+		width: 15px;
+		height: 15px;
+		padding-left: 20px;
+		padding-top: 2px;
+	}
+	#profile {
+		padding-left: 20%;
+	}
+	#accountSwitcher {
+		padding-left: 10px;
+	}
+	#home img {
+		height: 8px;
+		margin-bottom: 6px;
+		padding-left: 10px;
+	}
+	#friendRequest {
+		padding-left: 20px;
+	}
+	#messenger {
+		padding-left: 3px;
+	}
+	#notifications {
+		padding-left: 3px;
+	}
+	#help {
+		padding-left: 15px;
+	}
+	#dropDown {
+		padding-left: 5px;
+	}
+	#dropDown img {
+		width: 10px;
+		height: 8px;
+		padding-bottom: 6px;
+	}
+	</style>
+</head>
+<body>
+<div>
+	<span id="fbLogo"><img src="file:///C:/Users/RitRage/Desktop/assignments/assignment%201/icons/fbLogo.JPG"></span>
+	<input type="text" id="search" placeholder="Search" name="search">
+      <button type="submit"><img src="http://www.stickpng.com/assets/images/585e4ae1cb11b227491c3393.png"></button>
+
+	<span id="profile" title="Profile"><img src="file:///C:/Users/RitRage/Desktop/assignments/assignment%201/icons/name.png"></span>
+	<span id="accountSwitcher" title="Account switcher"><img src="file:///C:/Users/RitRage/Desktop/assignments/assignment%201/icons/accountSwitcher.png"></span>
+	<span id="home"><img src="file:///C:/Users/RitRage/Desktop/assignments/assignment%201/icons/Home.png"></span>
+	<span id="friendRequest" title="Friend requests"><img src="file:///C:/Users/RitRage/Desktop/assignments/assignment%201/icons/friendRequest.png"></span>
+	<span id="messenger" title="Messages"><img src="file:///C:/Users/RitRage/Desktop/assignments/assignment%201/icons/messenger.png"></span>
+	<span id="notifications" title="Notifications"><img src="file:///C:/Users/RitRage/Desktop/assignments/assignment%201/icons/notifications.png"></span>
+	<span id="help" title="Quick help"><img src="file:///C:/Users/RitRage/Desktop/assignments/assignment%201/icons/help.png"></span>
+	<span id="dropDown"><img src="file:///C:/Users/RitRage/Desktop/assignments/assignment%201/icons/dropDown.png"></span>
+</div>
+</body>
+</html>
