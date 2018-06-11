@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SUTT A3</title>
+<style type="text/css">
+	body {
+		background-color: powderblue;
+		text-align: center;
+	}
+	#od {
+		margin-top: 22.5%;
+	}
+	#ob {
+		background-color: powderblue;
+		padding: 15px;
+		font-family: cursive;
+		font-size: 20px;
+		border:0px;
+	}
+	#ob:hover {
+		background-color: purple;
+		color: white;
+	}
+	#cd {
+		display: none;
+		margin-top: 20%;
+		color: white;
+		background-color: purple;
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	#cb {
+		background-color: purple;
+		padding: 15px;
+		font-family: cursive;
+		font-size: 20px;
+		border:0px;
+	}
+	#cb:hover {
+		background-color: black;
+		color: white;
+	}
+</style>
+</head>
+<body align=center>
+<div id="od">
+	<button id="ob">
+		<span>CLICK</span>
+	</button>
+</div>
+<div id="cd">
+	<div>This is the first time i use javascript in making a website.<br>So guess what....<br><b>HELLO WORLD</b></div>
+	<div>
+		<button id="cb">
+			<span>CLOSE</span>
+		</button>
+	</div>
+</div>
+<script type="text/javascript">
+	var x = document.getElementById("ob");
+	var y = document.getElementById("cd");
+	var z = document.getElementById("cb");
+	x.addEventListener("click", open);
+	z.addEventListener("click", close);
+	function open() {
+		x.style.display = "none";
+		y.style.display = "block";
+	}
+	function close() {
+		y.style.display = "none";
+	}
+</script>
+</body>
+</html>
